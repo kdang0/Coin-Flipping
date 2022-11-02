@@ -23,7 +23,7 @@ function fiveHeads() {
             }
         }
 
-        resolve("Coin has been flipped heads 5 times in a row");
+        resolve(`Coin has been flipped heads 5 times in a row after ${attempts} attempts`);
 
 
     });
